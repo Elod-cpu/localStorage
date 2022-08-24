@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body >
+    
+    <form id="fait"  action="">
+        <h1>Fiche d'inscription</h1>
+            <input type="text" id="nom" placeholder="Nom de l'élève">
+            <input type="text" id="prenom" placeholder="Prénom de l'élève">
+            <input type="date" id="age" placeholder="Date de naissance de l'élève">
+            <input type="text" id="lieu" placeholder="Lieu de naissance l'élève">
+            <div>
+            <select name="" id="classe">
+                <option value="">---selectionner---</option>
+                <option >6e</option>
+                <option >5e</option>
+                <option >4e</option>
+                <option >3e</option>
+                <option >2nde</option>
+                <option >1ere</option>
+                <option >Tle</option>
+               </select>
+            </div>
+            </div>
+            <select  id="genre">
+                <option value="">--selection votre genre</option>
+                <option >Masculin</option>
+                <option >Féminin</option>
+              </select>
+            </div>
+            
+        <input type="text" id="tnom" placeholder="Nom du tuteur">
+        <input type="text" id="tprenom" placeholder="Prénom du tuteur">
+        <input type="text" id="tprofession" placeholder="Profession du tuteur">
+        <input type="number" id="tel" placeholder="Téléphone du tuteur">
+        <input type="email" id="mail" placeholder="Email du tuteur">
+
+        <button id="btn" type="reset" onclick = "rest()">Soummettre</button>
+     
+    </form>
+
+<div class="ole">
+    <h1>LISTE DES ELEVES</h1>
+    <table style="width:100%" id="eleve" >
+        <tr>
+            <td>
+                <h3>Nom</h3>
+            </td>
+            <td>
+                <h3>Prenom</h3>
+            </td>
+            <td>
+                <h3>Age</h3>
+            </td>
+            <td>
+                <h3>lieu_Naiss</h3>
+            </td>
+            <td>
+                <h3>Classe</h3>
+            </td>
+            <td>
+                <h3>Genre</h3>
+            </td>
+            <td>
+                <h3>Nom_Tuteur</h3>
+            </td>
+            <td>
+                <h3>Prenom_Tuteur</h3>
+            </td>
+            <td>
+                <h3>Profession</h3>
+            </td>
+            <td>
+                <h3>Telephone</h3>
+            </td>
+            <td>
+                <h3>Email</h3>
+            </td>
+        </tr>
+
+    </table>
+</div>
+    
+</body >
+<script src="index.js"></script>
+</html>
